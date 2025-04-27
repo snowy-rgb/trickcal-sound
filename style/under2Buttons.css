@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    overflow: hidden;
+    user-select: none; /* 텍스트 드래그 방지 */
+    -webkit-user-drag: none; /* 텍스트 드래그 방지 */
+}
+
+#butterButton, #komiButton {
+    position: absolute;
+    width: 25vw; /* 화면 너비의 10%로 크기 설정 */
+    height: auto; /* 비율을 유지하며 높이를 자동 조정 */
+    transform: rotate(30deg); /* 비스듬하게 회전 */
+    bottom: -2.5vh; /* 하단에서 약간 올라옴 */
+}
+
+#butterButton {
+    left: -3vw; /* 왼쪽 하단으로 위치 지정 */
+    bottom: -4vh; /* 살짝 위로 올림 */
+}
+
+#komiButton {
+    right: -3vw; /* 오른쪽 하단으로 위치 지정 */
+    transform: rotate(-30deg); /* 반대 방향 회전 */
+    bottom: -6vh; /* 하단 조정 */ 
+}
