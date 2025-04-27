@@ -1,5 +1,5 @@
 let komiSounds = [
-    new Audio('../../../../assets/audio_but/but.m4a'), // 첫 번째 소리 파일
+    new Audio('assets/audio_but/but.m4a'), // 첫 번째 소리 파일
     new Audio('../../../../assets/audio_but/ter.m4a')  // 두 번째 소리 파일
   ];
   let komIndex = 0;
