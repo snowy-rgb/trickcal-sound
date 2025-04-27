@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    overflow: hidden; /* 화면 넘침 방지 */
+  }
+  
+  .click-effect {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(50,205,50,0.7);
+    border-radius: 50%;
+    animation: ripple 0.5s ease-out;
+    pointer-events: none; /* 클릭 방지 */
+  }
+  
+  @keyframes ripple {
+    from {
+      transform: scale(0.7);
+      opacity: 1;
+    }
+    to {
+      transform: scale(4);
+      opacity: 0;
+    }
+  }
